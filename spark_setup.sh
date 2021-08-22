@@ -20,14 +20,3 @@ pip install pandas pyarrow findspark jupyter
 echo "spark.eventLog.enabled           true" >> /opt/spark/conf/spark-defaults.conf
 echo "spark.history.fs.logDirectory       file:/tmp/spark-events" >> /opt/spark/conf/spark-defaults.conf
 mkdir /tmp/spark-events
-
-
-
-
-
-
-
-
-
-
-
