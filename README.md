@@ -7,7 +7,7 @@ Ubuntu 20.04 running on WSL 2
 
 ## Usage:
 #### Installation of spark
-Run the Ubuntu app running on wsl
+Run the Ubuntu app on wsl
 
 Execute the following commands
 

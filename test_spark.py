@@ -14,5 +14,7 @@ spark = SQLContext(sc)
 
 df = pd.DataFrame({'col1':[1]})
 df = spark.createDataFrame(df)
-df = df.withColumn('col2',F.lit('Successfully completed spark job.'))
+df = df.withColumn('col2',F.lit('Spark'))
+df = df.withColumn('col3',F.lit('is'))
+df = df.withColumn('col4',F.lit('working.'))
 print(df.show())
